@@ -21,8 +21,14 @@ const Banner = () => {
           className="max-w-[58.625rem] max-h-[58.625rem]"
         />
       </div>
-      <div className="absolute w-full container bottom-0 block sm:hidden">
-        <Image src={'/images/fairy-mobile.webp '} alt="fairy-mobile" width={342} height={258} />
+      <div className="absolute w-full px-4 left-0 bottom-0 block sm:hidden">
+        <Image
+          src={'/images/fairy-mobile.webp'}
+          alt="fairy-mobile"
+          width={342}
+          height={258}
+          className="max-w-[21.375rem] max-h-[16.125rem]"
+        />
       </div>
       <div className="absolute container right-1/2 translate-x-1/2 top-[8.5rem] sm:top-[18.375rem] w-full flex flex-col justify-center">
         <p className="capitalize text-[2.5rem] text-center sm:text-[5rem] font-[900] text-white leading-[3.125rem] sm:leading-[7.5rem] font-serif tracking-[.0375rem]">
