@@ -13,10 +13,16 @@ const Banner = () => {
   return (
     <div className='bg-[url("/images/background-banner-mobile.png")] sm:bg-[url("/images/background-banner.png")] bg-cover bg-no-repeat bg-center h-[51.5rem] sm:h-[63.625rem] relative'>
       <div className="absolute left-0 bottom-0 hidden sm:block">
-        <Image src={'/images/fairy.png'} alt="fairy" width={938} height={938} />
+        <Image
+          src={'/images/fairy.webp'}
+          alt="fairy"
+          width={938}
+          height={938}
+          className="max-w-[58.625rem] max-h-[58.625rem]"
+        />
       </div>
       <div className="absolute w-full container bottom-0 sm:hidden">
-        <Image src={'/images/fairy-mobile.png '} alt="fairy" width={342} height={258} />
+        <Image src={'/images/fairy-mobile.webp '} alt="fairy" width={342} height={258} />
       </div>
       <div className="absolute container right-1/2 translate-x-1/2 top-[8.5rem] sm:top-[18.375rem] w-full flex flex-col justify-center">
         <p className="capitalize text-[2.5rem] text-center sm:text-[5rem] font-[900] text-white leading-[3.125rem] sm:leading-[7.5rem] font-serif tracking-[.0375rem]">
