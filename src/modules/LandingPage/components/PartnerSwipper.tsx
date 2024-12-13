@@ -74,7 +74,7 @@ export const PartnerSwipper = () => {
         <Icons.arrowLeftSquare className="w-[2.0831rem] h-[2.0831rem]  " />
       </button>
 
-      <button className="swiper-button-prev absolute sm:-right-10 right-4 top-1/2 z-10 w-[2.0831rem] aspect-square shadow-[0_4px_10px_rgba(0,0,0,0.2)] rounded-md -translate-y-1/2  flex items-center justify-center">
+      <button className="swiper-button-next absolute sm:-right-10 right-4 top-1/2 z-10 w-[2.0831rem] aspect-square shadow-[0_4px_10px_rgba(0,0,0,0.2)] rounded-md -translate-y-1/2  flex items-center justify-center">
         <Icons.arrowRightSquare className="w-[2.0831rem] h-[2.0831rem]" />
       </button>
     </div>
